@@ -20,6 +20,11 @@
       font-size: 2rem;
       font-weight: bold;
       color: aliceblue;
+
+      a {
+         text-decoration: none;
+         color: aliceblue;
+      }
    }
 
    .nav-links {
@@ -27,38 +32,47 @@
       flex-wrap: wrap;
       justify-content: center;
 
-   }
+      a {
+         text-decoration: none;
+         font-size: 1.5rem;
+         font-weight: bold;
+         color: black;
+         color: aliceblue;
+         border: 1px solid;
+         padding: .4rem;
+         margin: .3rem .5rem;
+         border-radius: .8rem;
+         -webkit-border-radius: .8rem;
+         -moz-border-radius: .8rem;
+         -ms-border-radius: .8rem;
+         -o-border-radius: .8rem;
+         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+            rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      }
 
-   a {
-      text-decoration: none;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: black;
-      color: aliceblue;
-      border: 1px solid;
-      padding: .4rem;
-      margin: .3rem .5rem;
-      border-radius: .8rem;
-      -webkit-border-radius: .8rem;
-      -moz-border-radius: .8rem;
-      -ms-border-radius: .8rem;
-      -o-border-radius: .8rem;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-         rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      a:hover{
+         background-color: rgb(37, 37, 37);
+         color: rgba(88, 192, 252, 0.911);
+         transition: .3s;
+         -webkit-transition: .3s;
+         -moz-transition: .3s;
+         -ms-transition: .3s;
+         -o-transition: .3s;
+}
    }
 }
 
 .page-content {
    display: flex;
    padding: 1.2rem;
-   width: 100%;height: 81vh;
+   width: 100%;
+   height: 81vh;
 
    .pannel {
       width: 30%;
       display: flex;
       flex-direction: column;
       height: 100%;
-      /* background-color: black; */
       background-color: rgb(34, 34, 34);
       overflow-y: scroll;
 
@@ -75,6 +89,7 @@
          -moz-border-radius: .3rem;
          -ms-border-radius: .3rem;
          -o-border-radius: .3rem;
+         text-align: center;
 
          h2 {
             font-size: 2rem;
@@ -107,7 +122,7 @@
       }
 
       .p-body {
-         
+
          display: flex;
          flex-wrap: wrap;
          justify-content: center;
@@ -124,6 +139,17 @@
             -ms-border-radius: .9rem;
             -o-border-radius: .9rem;
          }
+
+         button:hover{
+            background-color: rgb(37, 37, 37);
+            color: rgba(88, 192, 252, 0.911);
+            border: 1px solid;
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+}
       }
    }
 
@@ -134,16 +160,16 @@
    }
 }
 
-#initial{
+#initial {
    font-size: 2rem;
    margin: .5rem 0;
 }
 
-#question{
+#question {
    font-size: 1.5rem;
    font-weight: bold;
 }
 
-#code{
+#code {
    font-size: 1.5rem;
 }

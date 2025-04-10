@@ -1,11 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-</head>
-<body>
-   basic
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Programming Constructs</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <p><a href="/index.html">HOME</a></p>
+      <div class="nav-links">
+        <a href="../2dPrograms/2DArray.html">2D Array</a>
+        <a href="../BasicProgram/Basic.html">Basic Programming Constructs</a>
+        <a href="../ConversionProgram/Conversion.html">Data Conversion</a>
+        <a href="../FileHandlingPrograms/FileHandling.html">File Handling</a>
+        <a href="../FunctionPrograms/function.html">Functions</a>
+        <a href="../InheritancePrograms/inheritance.html">Inheritance</a>
+        <a href="../OopsPrograms/oop.html">Object Oriented Programming</a>
+        <a href="../OperatorOverPrograms/oo.html">Operator Overloading</a>
+        <a href="../ArrayPrograms/Array.html">Single Dimension Arrays</a>
+        <a href="../StringPrograms/string.html">Strings</a>
+        <a href="../VirtualPrograms/virtual.html">Virtual Functions</a>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="pannel">
+        <div class="head">
+          <button><a href="../2dPrograms/2DArray.html">←</a></button>
+          <h2>Basic Programming Constructs</h2>
+          <button><a href="../ConversionProgram/Conversion.html">→</a></button>
+        </div>
+        <div class="p-body">
+          <!-- question btn -->
+          <button onclick="loadQuestion('1.txt')">Question 1</button>
+          <button onclick="loadQuestion('2.txt')">Question 2</button>
+          <button onclick="loadQuestion('3.txt')">Question 3</button>
+          <button onclick="loadQuestion('4.txt')">Question 4</button>
+          <button onclick="loadQuestion('5.txt')">Question 5</button>
+          <button onclick="loadQuestion('6.txt')">Question 6</button>
+          <button onclick="loadQuestion('7.txt')">Question 7</button>
+          <button onclick="loadQuestion('8.txt')">Question 8</button>
+          <button onclick="loadQuestion('9.txt')">Question 9</button>
+          <button onclick="loadQuestion('10.txt')">Question 10</button>
+          <button onclick="loadQuestion('11.txt')">Question 11</button>
+          <button onclick="loadQuestion('12.txt')">Question 12</button>
+          <button onclick="loadQuestion('13.txt')">Question 13</button>
+          <button onclick="loadQuestion('14.txt')">Question 14</button>
+          <button onclick="loadQuestion('15.txt')">Question 15</button>
+          <button onclick="loadQuestion('16.txt')">Question 16</button>
+          <button onclick="loadQuestion('17.txt')">Question 17</button>
+          <button onclick="loadQuestion('18.txt')">Question 18</button>
+          <button onclick="loadQuestion('19.txt')">Question 19</button>
+          <button onclick="loadQuestion('20.txt')">Question 20</button>
+          <button onclick="loadQuestion('21.txt')">Question 21</button>
+          <button onclick="loadQuestion('22.txt')">Question 22</button>
+          <button onclick="loadQuestion('23.txt')">Question 23</button>
+          <button onclick="loadQuestion('24.txt')">Question 24</button>
+          <button onclick="loadQuestion('25.txt')">Question 25</button>
+          <button onclick="loadQuestion('26.txt')">Question 26</button>
+          <button onclick="loadQuestion('27.txt')">Question 27</button>
+          <button onclick="loadQuestion('28.txt')">Question 28</button>
+          <button onclick="loadQuestion('29.txt')">Question 29</button>
+          <button onclick="loadQuestion('30.txt')">Question 30</button>
+          <button onclick="loadQuestion('31.txt')">Question 31</button>
+          <button onclick="loadQuestion('32.txt')">Question 32</button>
+          <button onclick="loadQuestion('33.txt')">Question 33</button>
+          <button onclick="loadQuestion('34.txt')">Question 34</button>
+          <button onclick="loadQuestion('35.txt')">Question 35</button>
+          <button onclick="loadQuestion('36.txt')">Question 36</button>
+          <button onclick="loadQuestion('37.txt')">Question 37</button>
+          <button onclick="loadQuestion('38.txt')">Question 38</button>
+          <button onclick="loadQuestion('39.txt')">Question 39</button>
+          <button onclick="loadQuestion('40.txt')">Question 40</button>
+          <button onclick="loadQuestion('41.txt')">Question 41</button>
+          <button onclick="loadQuestion('42.txt')">Question 42</button>
+          <button onclick="loadQuestion('43.txt')">Question 43</button>
+          <button onclick="loadQuestion('44.txt')">Question 44</button>
+          <button onclick="loadQuestion('45.txt')">Question 45</button>
+          <button onclick="loadQuestion('46.txt')">Question 46</button>
+          <button onclick="loadQuestion('47.txt')">Question 47</button>
+          <button onclick="loadQuestion('48.txt')">Question 48</button>
+          <button onclick="loadQuestion('49.txt')">Question 49</button>
+          <button onclick="loadQuestion('50.txt')">Question 50</button>
+          <button onclick="loadQuestion('51.txt')">Question 51</button>
+          <button onclick="loadQuestion('52.txt')">Question 52</button>
+          <button onclick="loadQuestion('53.txt')">Question 53</button>
+          <button onclick="loadQuestion('54.txt')">Question 54</button>
+          <button onclick="loadQuestion('55.txt')">Question 55</button>
+          <button onclick="loadQuestion('56.txt')">Question 56</button>
+          <button onclick="loadQuestion('57.txt')">Question 57</button>
+          <button onclick="loadQuestion('58.txt')">Question 58</button>
+          <button onclick="loadQuestion('59.txt')">Question 59</button>
+          <button onclick="loadQuestion('60.txt')">Question 60</button>
+          <button onclick="loadQuestion('61.txt')">Question 61</button>
+          <button onclick="loadQuestion('62.txt')">Question 62</button>
+          <button onclick="loadQuestion('63.txt')">Question 63</button>
+          <button onclick="loadQuestion('64.txt')">Question 64</button>
+          <button onclick="loadQuestion('65.txt')">Question 65</button>
+          <button onclick="loadQuestion('66.txt')">Question 66</button>
+          <button onclick="loadQuestion('67.txt')">Question 67</button>
+          <button onclick="loadQuestion('68.txt')">Question 68</button>
+          <button onclick="loadQuestion('69.txt')">Question 69</button>
+          <button onclick="loadQuestion('70.txt')">Question 70</button>
+          <button onclick="loadQuestion('71.txt')">Question 71</button>
+          <button onclick="loadQuestion('72.txt')">Question 72</button>
+          <button onclick="loadQuestion('73.txt')">Question 73</button>
+          <button onclick="loadQuestion('74.txt')">Question 74</button>
+          <button onclick="loadQuestion('75.txt')">Question 75</button>
+          <button onclick="loadQuestion('76.txt')">Question 76</button>
+          <button onclick="loadQuestion('77.txt')">Question 77</button>
+          <button onclick="loadQuestion('78.txt')">Question 78</button>
+          <button onclick="loadQuestion('79.txt')">Question 79</button>
+          <button onclick="loadQuestion('80.txt')">Question 80</button>
+          <button onclick="loadQuestion('81.txt')">Question 81</button>
+          <button onclick="loadQuestion('82.txt')">Question 82</button>
+          <button onclick="loadQuestion('83.txt')">Question 83</button>
+          <button onclick="loadQuestion('84.txt')">Question 84</button>
+          <button onclick="loadQuestion('85.txt')">Question 85</button>
+          <button onclick="loadQuestion('86.txt')">Question 86</button>
+          <button onclick="loadQuestion('87.txt')">Question 87</button>
+          <button onclick="loadQuestion('88.txt')">Question 88</button>
+          <button onclick="loadQuestion('89.txt')">Question 89</button>
+          <button onclick="loadQuestion('90.txt')">Question 90</button>
+          <button onclick="loadQuestion('91.txt')">Question 91</button>
+          <button onclick="loadQuestion('92.txt')">Question 92</button>
+          <button onclick="loadQuestion('93.txt')">Question 93</button>
+          <button onclick="loadQuestion('94.txt')">Question 94</button>
+          <button onclick="loadQuestion('95.txt')">Question 95</button>
+          <button onclick="loadQuestion('96.txt')">Question 96</button>
+          <button onclick="loadQuestion('97.txt')">Question 97</button>
+          <button onclick="loadQuestion('98.txt')">Question 98</button>
+          <button onclick="loadQuestion('99.txt')">Question 99</button>
+          <button onclick="loadQuestion('100.txt')">Question 100</button>
+          <button onclick="loadQuestion('101.txt')">Question 101</button>
+          <button onclick="loadQuestion('102.txt')">Question 102</button>
+          <button onclick="loadQuestion('103.txt')">Question 103</button>
+          <button onclick="loadQuestion('104.txt')">Question 104</button>
+          <button onclick="loadQuestion('105.txt')">Question 105</button>
+          <button onclick="loadQuestion('106.txt')">Question 106</button>
+          <button onclick="loadQuestion('107.txt')">Question 107</button>
+          <button onclick="loadQuestion('108.txt')">Question 108</button>
+          <button onclick="loadQuestion('109.txt')">Question 109</button>
+          <button onclick="loadQuestion('110.txt')">Question 110</button>
+          <button onclick="loadQuestion('111.txt')">Question 111</button>
+          <button onclick="loadQuestion('112.txt')">Question 112</button>
+          <button onclick="loadQuestion('113.txt')">Question 113</button>
+        </div>
+      </div>
+
+      <div class="display">
+        <!-- display of program -->
+        <h3 id="initial">Question</h3>
+        <p id="question"></p>
+        <pre id="code"></pre>
+      </div>
+    </div>
+
+    <script>
+      function loadQuestion(filename) {
+        // JavaScript to fetch the text file
+        fetch(filename) // Use the filename passed to the function
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                "Network response was not ok " + response.statusText
+              );
+            }
+            return response.text();
+          })
+          .then((data) => {
+            const lines = data.split("\n");
+            // Join the first three lines as the question
+            document.getElementById("question").textContent = lines
+              .slice(0, 3)
+              .join(" "); // First three lines as question
+            document.getElementById("code").textContent = lines
+              .slice(3)
+              .join("\n"); // Remaining lines as code
+          })
+          .catch((error) => {
+            console.error(
+              "There was a problem with the fetch operation:",
+              error
+            );
+          });
+      }
+    </script>
+  </body>
 </html>
