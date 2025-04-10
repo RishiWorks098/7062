@@ -1,0 +1,38 @@
+// 5. Program to determine whether two matrices are equal
+
+#include <iostream>
+using namespace std;
+
+void main()
+{
+    int a[10][10], b[10][10], i, j, r, c, flag = 0;
+    cout << "\nEnter the no.of row in matrix:";
+    cin >> r;
+    cout << "\nEnter the no. of columns in matrix:";
+    cin >> c;
+    cout << "\nEnter the elements of first matrix:";
+    for (i = 0; i < r; i++)
+        for (j = 0; j < c; j++)
+            cin >> a[i][j];
+    cout << "\nEnter the elements of second matrix:";
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            cin >> b[i][j];
+        }
+    }
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            if (a[i][j] == b[i][j])
+                flag = 1;
+        }
+    }
+    if (flag == 0)
+        cout << "Matrices are not equal.";
+    else
+        cout << "Matrices are equal. ";
+
+}
