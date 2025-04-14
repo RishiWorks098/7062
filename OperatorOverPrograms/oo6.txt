@@ -1,4 +1,7 @@
-// 6. Implement a class Money to represent money. Overload the + operator to add two amounts of money.
+6. Implement a class Money to represent money. Overload the + operator to add two amounts of money.
+
+
+
 #include <iostream>
 using namespace std;
 

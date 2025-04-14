@@ -1,4 +1,7 @@
 //25. Write a C++ program to sum values of an array
+
+
+
 #include<iostream>
 using namespace std;
 

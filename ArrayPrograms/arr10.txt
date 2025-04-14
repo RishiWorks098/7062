@@ -1,4 +1,7 @@
 //10. Program to print the Smallest element in an array
+
+
+
 #include<iostream>
 using namespace std;
 

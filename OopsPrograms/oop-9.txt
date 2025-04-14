@@ -1,3 +1,7 @@
+9. Write a C++ program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service.
+
+
+
 #include <iostream>
 #include <string>
 #include <ctime> // For time related functions

@@ -1,7 +1,6 @@
-/* 6. Write a C++ program to create an abstract class Employee with abstract methods calculateSalary() 
+6. Write a C++ program to create an abstract class Employee with abstract methods calculateSalary() 
 and displayInfo(). Create derived classes Manager and Programmer that extend the Employee class and 
 implement the respective methods to calculate salary and display information for each role. */
-
 
 #include <iostream>
 #include <string>

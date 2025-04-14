@@ -1,4 +1,7 @@
 //8. Program to print the elements of an array present on odd position
+
+
+
 #include<iostream>
 using namespace std;
 

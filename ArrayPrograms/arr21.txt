@@ -1,4 +1,7 @@
-//21. Program to Remove Duplicate Element in an array
+21. Program to Remove Duplicate Element in an array
+
+
+
 #include<iostream>
 using namespace std;
 

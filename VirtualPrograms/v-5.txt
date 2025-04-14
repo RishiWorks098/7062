@@ -1,4 +1,4 @@
-/* 5. Write a C++ program to create an abstract class Animal with abstract methods eat() and sleep(). 
+5. Write a C++ program to create an abstract class Animal with abstract methods eat() and sleep(). 
 Create derived classes Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() 
 methods differently based on their specific behavior.*/
 

@@ -1,0 +1,1 @@
+24. Write a C++ program to add all the digits of a given positive integer

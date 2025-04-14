@@ -1,9 +1,11 @@
-#include <iostream>
+22. Create a class showing an example of copy constructor.
 
+
+
+#include <iostream>
 using namespace std;
 
-class Number
-{
+class Number{
 private:
     int value;
 
@@ -12,20 +14,17 @@ public:
     Number(int _value) : value(_value) {}
 
     // Copy constructor
-    Number(const Number &other)
-    {
+    Number(const Number &other)    {
         value = other.value;
     }
 
     // Method to display the value
-    void displayValue() const
-    {
+    void displayValue() const    {
         cout << "Value: " << value << endl;
     }
 };
 
-int main()
-{
+int main(){
     // Create a Number object
     Number num1(10);
 

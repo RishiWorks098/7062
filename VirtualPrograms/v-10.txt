@@ -1,4 +1,4 @@
-/* 10. Write a C++ program to create an abstract class Instrument with abstract methods play() and tune(). 
+10. Write a C++ program to create an abstract class Instrument with abstract methods play() and tune(). 
 Create derived classes for Glockenspiel and Violin that extend the Instrument class and implement the respective 
 methods to play and tune each instrument. */
 

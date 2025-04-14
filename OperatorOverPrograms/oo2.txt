@@ -1,4 +1,7 @@
-// 2. Create a class Fraction to represent fractions. Overload the + operator to add two fractions.
+2. Create a class Fraction to represent fractions. Overload the + operator to add two fractions.
+
+
+
 #include <iostream>
 using namespace std;
 

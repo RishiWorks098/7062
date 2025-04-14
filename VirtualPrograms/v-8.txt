@@ -1,7 +1,6 @@
-/* 8. Write a C++ program to create an abstract class Vehicle with abstract methods startEngine() and stopEngine(). 
+8. Write a C++ program to create an abstract class Vehicle with abstract methods startEngine() and stopEngine(). 
 Create derived classes Car and Motorcycle that extend the Vehicle class and implement the respective methods to 
-start and stop the engines for each vehicle type. */
-
+start and stop the engines for each vehicle type. 
 
 #include <iostream>
 using namespace std;

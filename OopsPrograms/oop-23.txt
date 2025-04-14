@@ -1,3 +1,7 @@
+23. Create a class entering the rollno, name and class of the student from user but rollno should be automatically generated as we enter the information of 10 students
+
+
+
 #include <iostream>
 #include <string>
 

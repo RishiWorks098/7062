@@ -1,4 +1,7 @@
-//19. Program to Find 2nd Smallest Number in an array
+19. Program to Find 2nd Smallest Number in an array
+
+
+
 #include<iostream>
 using namespace std;
 

@@ -1,7 +1,6 @@
-/* 11. Write a C++ program to create an abstract class Shape2D with abstract methods draw() and resize(). 
+ 11. Write a C++ program to create an abstract class Shape2D with abstract methods draw() and resize(). 
 Create derived classes Rectangle and Circle that extend the Shape2D class and implement the respective methods 
-to draw and resize each shape. */
-
+to draw and resize each shape. 
 #include <iostream>
 using namespace std;
 

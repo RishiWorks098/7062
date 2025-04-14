@@ -1,4 +1,6 @@
-// Write a C++ program to split a large text file into smaller files of equal size.
+10. Write a C++ program to split a large text file into smaller files of equal size.
+
+
 
 #include <iostream>
 #include <fstream>

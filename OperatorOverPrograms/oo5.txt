@@ -1,4 +1,7 @@
-// 5. Define a class Date to represent dates. Overload the < operator to compare two dates.
+5. Define a class Date to represent dates. Overload the < operator to compare two dates.
+
+
+
 #include <iostream>
 using namespace std;
 

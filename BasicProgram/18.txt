@@ -1,4 +1,6 @@
-// 18. Write a C++ program to convert a string to an integer
+18. Write a C++ program to convert a string to an integer
+
+
 
 #include<iostream>
 

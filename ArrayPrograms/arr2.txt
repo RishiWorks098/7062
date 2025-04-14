@@ -1,5 +1,7 @@
 // 2. Program to find the frequency of each element in the array
 
+
+
 #include<iostream>
 using namespace std;
 

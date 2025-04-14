@@ -1,4 +1,7 @@
-//20. Program to Find Smallest Number in an array
+20. Program to Find Smallest Number in an array
+
+
+
 #include<iostream>
 using namespace std;
 

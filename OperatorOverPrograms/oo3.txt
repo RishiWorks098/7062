@@ -1,4 +1,6 @@
-// 3. Define a class Matrix to represent matrices. Overload the * operator to multiply two matrices.
+3. Define a class Matrix to represent matrices. Overload the * operator to multiply two matrices.
+
+
 
 #include <iostream>
 using namespace std;

@@ -1,5 +1,7 @@
 // 2. Write a C++ method to compute the average of three numbers
 
+
+
 #include<iostream>
 using namespace std;
 

@@ -1,4 +1,7 @@
 //22. Program to Print Odd and Even Numbers from an array
+
+
+
 #include<iostream>
 using namespace std;
 

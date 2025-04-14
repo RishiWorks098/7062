@@ -1,3 +1,7 @@
+17. Write a C++ program to create a class called "Movie" with attributes for title, director, actors, and reviews, and methods for adding and retrieving reviews.
+
+
+
 #include <iostream>
 #include <string>
 

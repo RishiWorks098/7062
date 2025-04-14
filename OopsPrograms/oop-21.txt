@@ -1,3 +1,7 @@
+21. Create a class showing an example of parameterized constructor.
+
+
+
 #include <iostream>
 
 using namespace std;

@@ -1,4 +1,7 @@
 //26. Write a C++ program to find the index of an array element
+
+
+
 #include<iostream>
 using namespace std;
 

@@ -1,3 +1,7 @@
+15. Write a C++ program to create a class called "MusicLibrary" with a collection of songs and methods to add and remove songs, and to play a random song.
+
+
+
 #include <iostream>
 #include <string>
 #include <cstdlib>

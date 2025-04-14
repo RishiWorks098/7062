@@ -1,4 +1,6 @@
-// Write a C++ program to find and replace a specific word in a text file.
+6. Write a C++ program to find and replace a specific word in a text file.
+
+
 
 #include <iostream>
 #include <fstream>

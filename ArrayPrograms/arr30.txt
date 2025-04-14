@@ -1,4 +1,7 @@
 //30. Write a C++ program to insert an element (specific position) into an array
+
+
+
 #include<iostream>
 using namespace std;
 

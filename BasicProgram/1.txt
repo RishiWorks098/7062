@@ -1,4 +1,6 @@
-// Write a program to print "HELLO WORLD"
+1. Write a C++ program to print ‘Hello World!’ on screen
+
+
 
 #include<iostream>
 using namespace std;

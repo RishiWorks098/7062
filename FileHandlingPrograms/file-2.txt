@@ -1,4 +1,6 @@
-// Write a C++ program to open an existing text file and display its contents on the console.
+2. Write a C++ program to open an existing text file and display its contents on the console.
+
+
 
 #include <iostream>
 #include <fstream>

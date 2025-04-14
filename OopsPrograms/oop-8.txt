@@ -1,3 +1,7 @@
+8. Write a C++ program to create a class called "TrafficLight" with attributes for color and duration, and methods to change the color and check for red or green.
+
+
+
 #include <iostream>
 #include <string>
 #include <cstdlib> // For system-specific functions

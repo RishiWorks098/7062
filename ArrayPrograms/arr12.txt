@@ -1,4 +1,7 @@
 //12. Program to print the sum of all the items of the array
+
+
+
 #include<iostream>
 using namespace std;
 

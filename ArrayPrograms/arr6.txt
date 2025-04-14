@@ -1,4 +1,7 @@
 //6. Program to print the elements of an array in reverse order
+
+
+
 #include<iostream>
 using namespace std;
 

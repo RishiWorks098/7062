@@ -1,3 +1,7 @@
+13. Write a C++ program to create a class called "Inventory" with a collection of products and methods to add and remove products, and to check for low inventory.
+
+
+
 #include <iostream>
 #include <string>
 #include <unordered_map>

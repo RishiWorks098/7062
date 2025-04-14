@@ -5,13 +5,19 @@
    font-family: 'Arial';
 }
 
+body{
+   background-color: #f1f1f1;
+}
+
 .nav {
    background-color: rgba(216, 216, 214, 0.438);
+   background-color: #FBFBFB;
    display: flex;
    align-items: center;
    font-size: 1.5rem;
    padding: 1rem;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+   user-select: none;
 
    img {
       width: 6rem;
@@ -40,6 +46,7 @@
 
          h1 {
             color: rgb(37, 37, 37);
+            color:#026fdd;
             font-size: 4rem;
             font-weight: bold;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -58,24 +65,23 @@
 
          a {
             text-decoration: none;
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: black;
-            border: 1px solid;
+            font-size: 1.4rem;
+            font-weight: 200;
+            color: rgb(39, 39, 39);
+            background-color: white;
             padding: .4rem;
             margin: .3rem .5rem;
-            border-radius: .8rem;
-            -webkit-border-radius: .8rem;
-            -moz-border-radius: .8rem;
-            -ms-border-radius: .8rem;
-            -o-border-radius: .8rem;
-            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-               rgba(0, 0, 0, 0.23) 0px 3px 6px;
-         }
+            border-radius: .5rem;
+            -webkit-border-radius: .5rem;
+            -moz-border-radius: .5rem;
+            -ms-border-radius: .5rem;
+            -o-border-radius: .5rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
          a:hover {
-            background-color: rgb(37, 37, 37);
-            color: rgba(88, 192, 252, 0.911);
+            background-color: #4c8fd1ea;
+            color: white;
             transition: .3s;
             -webkit-transition: .3s;
             -moz-transition: .3s;
@@ -91,16 +97,17 @@
       justify-content: center;
       align-items: center;
       height: 80%;
+      user-select: none;
 
       img {
-         width: 90%;
+         width: 50%;
          border-radius: .5rem;
          -webkit-border-radius: .5rem;
          -moz-border-radius: .5rem;
          -ms-border-radius: .5rem;
          -o-border-radius: .5rem;
-         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
-            rgba(0, 0, 0, 0.23) 0px 6px 6px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+         background-color: white;
       }
    }
 }

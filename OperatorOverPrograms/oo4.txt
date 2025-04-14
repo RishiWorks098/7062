@@ -1,4 +1,7 @@
-// 4. Implement a class String to represent strings. Overload the + operator to concatenate two strings.
+4. Implement a class String to represent strings. Overload the + operator to concatenate two strings.
+
+
+
 #include <iostream>
 #include <string>
 

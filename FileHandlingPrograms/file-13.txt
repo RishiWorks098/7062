@@ -1,4 +1,6 @@
-//  Write a C++ program to decrypt the contents of a text file encrypted using the above ques 12 algorithm.
+13.  Write a C++ program to decrypt the contents of a text file encrypted using the above ques 12 algorithm.
+
+
 
 #include <iostream>
 #include <fstream>

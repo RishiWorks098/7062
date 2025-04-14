@@ -1,6 +1,6 @@
-/* 9. Write a C++ program to create an abstract class Person with abstract methods eat() and exercise().
+9. Write a C++ program to create an abstract class Person with abstract methods eat() and exercise().
 Create derived classes Athlete and LazyPerson that extend the Person class and implement the respective methods to
-describe how each person eats and exercises. */
+describe how each person eats and exercises. 
 
 #include <iostream>
 using namespace std;

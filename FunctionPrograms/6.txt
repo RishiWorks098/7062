@@ -1,5 +1,7 @@
 //6. Write a C++ method that accepts three integers and checks whether they are consecutive or not. Returns true or false.
 
+
+
 #include <iostream>
 using namespace std;
 bool consecutive(int a, int b, int c)

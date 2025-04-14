@@ -1,3 +1,7 @@
+16. Write a C++ program to create a class called "Shape" with abstract methods for calculating area and perimeter, and subclasses for "Rectangle", "Circle", and "Triangle".
+
+
+
 #include <iostream>
 #include <cmath> // Include cmath header for sqrt function
 

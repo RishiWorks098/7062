@@ -1,4 +1,6 @@
-// 2. Write a C++ program to create a class called Vehicle with a method called drive().Create a derived class called Car that overrides the drive() method to print "Repairing a car".
+2. Write a C++ program to create a class called Vehicle with a method called drive().Create a derived class called Car that overrides the drive() method to print "Repairing a car".
+
+
 
 #include <iostream>
 using namespace std;

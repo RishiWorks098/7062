@@ -1,0 +1,1 @@
+98. Write a C++ program to accept a float value of number and return a rounded float value

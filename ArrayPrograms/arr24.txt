@@ -1,4 +1,7 @@
 //24. Write a C++ program to count the number of even and odd elements in a given array
+
+
+
 #include<iostream>
 using namespace std;
 

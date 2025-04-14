@@ -1,4 +1,6 @@
-// Write a C++ program to calculate the average of numbers stored in a file.
+15. Write a C++ program to calculate the average of numbers stored in a file.
+
+
 
 #include <iostream>
 #include <fstream>
